@@ -37,7 +37,7 @@ A universal, zero-config Bash launcher for running legacy **beatmania IIDX (9th 
 * *(Optional)* `libstrangle` or `mangohud` for external 60fps frame limiting
 
 ### Quick Install on Popular Distros
-* **Fedora:** `sudo dnf install wine cabextract`
+* **Fedora (Best results):** `sudo dnf install wine cabextract`
 * **Arch / SteamOS:** `sudo pacman -S wine cabextract`
 * **Ubuntu / Debian:** `sudo apt install wine cabextract`
 
