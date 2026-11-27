@@ -43,6 +43,9 @@ A universal, zero-config Bash launcher for running legacy **beatmania IIDX (9th 
 
 ## Usage
 
+### BEFORE YOU RUN THIS SHELL SCRIPT
+* **You MUST have spice3x installed from the GitHub repository for this script to work: https://github.com/drmext/spice3x**
+
 1. Place `Spice2x-Linux-Launcher.sh` directly inside the game's executable folder alongside `spice.exe` and `spicecfg.exe`.
 2. Make the script executable:
    ```bash
