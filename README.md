@@ -1,4 +1,4 @@
-# Spice2x Linux Launcher (beatmania IIDX 9th Style – 17 SIRIUS)
+# Spice3x Linux Launcher (beatmania IIDX 9th Style – 17 SIRIUS)
 
 A universal, zero-config Bash launcher for running legacy **beatmania IIDX (9th Style through 17 SIRIUS)** on Linux via **Wine** and **Spice3x (Modified Spice2x)**.
 
