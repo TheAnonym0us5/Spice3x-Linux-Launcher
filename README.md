@@ -46,22 +46,22 @@ A universal, zero-config Bash launcher for running legacy **beatmania IIDX (9th 
 ### BEFORE YOU RUN THIS SHELL SCRIPT
 * **You MUST have spice3x installed from the GitHub repository for this script to work: https://github.com/drmext/spice3x**
 
-1. Place `Spice2x-Linux-Launcher.sh` directly inside the game's executable folder alongside `spice.exe` and `spicecfg.exe`.
+1. Place `sp3x-linux-launcher.sh` directly inside the game's executable folder alongside `spice.exe` and `spicecfg.exe`.
 2. Make the script executable:
    ```bash
-   chmod +x Spice2x-Linux-Launcher.sh
+   chmod +x sp3x-linux-launcher.sh
    ```
 3. **Configure Controls & Spice2x Options:**
    ```bash
-   ./Spice2x-Linux-Launcher.sh -c
+   ./sp3x-linux-launcher.sh -c
    ```
 4. **Launch the Game:**
    ```bash
-   ./Spice2x-Linux-Launcher.sh
+   ./sp3x-linux-launcher.sh
    ```
 5. **Debug Mode (Verbose Wine & Step Logs):**
    ```bash
-   ./Spice2x-Linux-Launcher.sh -debug
+   ./sp3x-linux-launcher.sh -debug
    ```
 
 ## Customizing Parameters (`args.sh`)
@@ -85,7 +85,7 @@ SPICE_ARGS=(
 
 ## Troubleshooting & Notes
 * **Game stuck on network / I/O check:** Add `-ea` (for Spice2x's built-in offline e-Amusement emulation) or your `-url` / `-card0` / `-p` flags to `SPICE_ARGS` in `args.sh`.
-* **Audio timing / latency:** Run `./Spice2x-Linux-Launcher.sh -c`, open the **Options** tab, and select **WASAPI Shared** or **DirectSound**.
+* **Audio timing / latency:** Run `./sp3x-linux-launcher.sh -c`, open the **Options** tab, and select **WASAPI Shared** or **DirectSound**.
 * **Resetting a Wine prefix:** To re-run first-time dependency installation for a specific title, delete its marker or prefix folder:
   ```bash
   wineserver -k
